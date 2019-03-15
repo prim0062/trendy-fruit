@@ -1,0 +1,48 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+
+  font-family: "Open Sans", sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.article1 {
+  background-color: #e97065;
+}
+
+.article1 h2 {
+  font-family: "Rammetto One", cursive;
+}
+
+.article2 {
+  background-color: #fbd25e;
+}
+
+.article2 h2 {
+  font-family: "Gravitas One", cursive;
+}
+
+.article3 {
+  background-color: #e86033;
+}
+
+.article3 h2 {
+  font-family: Comfortaa, cursive;
+}
